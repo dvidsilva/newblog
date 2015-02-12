@@ -1,0 +1,55 @@
+---
+layout: default
+title: Portfolio
+header: Portfolio
+group: navigation
+description: Some samples of my work
+keywords: coding php ruby mysql mongodb dvidsilva
+---
+<ul class='portfolio'>
+    <li class='sld' style='background-image: url(http://www.favey.com/img/backgrounds/color-splash.jpg); ' />
+        <div class='overlay ' >
+            <p>Texto cualquiera explicando alguna cosa</p>
+            <a href='http://favey.com' target='port' >favey.com</a>
+        </div>
+    </li>
+    <li class='sld'  style='background-image: url({{BASE_PATH}}/images/yayapromo.png); ' />
+        <div class='overlay ' >
+            <p>Texto cualquiera explicando alguna cosa</p>
+            <a href='http://yayapromo.com' target='port' >YaYapromo.com</a>
+        </div>
+    </li>
+    <li>serviciochevrolet.com.co</li>
+    <li>memegusta.com.co</li>
+    http://dvidsilva.github.io/udressme/
+    http://dvidsilva.github.io/blackorwhite/
+    http://theperfectgift.tk/
+    <li>tuta.co</li>
+    <li>eliptica.co</li>
+    <li>cytelsat.com</li>
+    <li>memegusta.com.co/enviosdeusa</li>
+    <li>koshersubway.net</li>
+</ul>
+
+
+<script>
+function showOverlay(e){
+    a = e.getElementsByTagName('div');
+    if(a[0].className.match(/\bshow\b/) ){
+        a[0].className = a[0].className.replace("show","");
+    }else{
+        a[0].className = a[0].className + " show ";
+    }
+}
+p = document.getElementsByClassName('portfolio');
+lis = p[0].getElementsByClassName('sld');
+for (var i = 0; i < lis.length ; i++){
+    lis[i].addEventListener('click', function() {  showOverlay(this)  ; }, false);
+    lis[i].addEventListener('mouseover', function() {  showOverlay(this)  ; }, false);
+    lis[i].addEventListener('mouseout', function() {  showOverlay(this)  ; }, false);
+    
+}
+
+
+</script>
+<script src="https://gist.github.com/dvidsilva/6710980.js"></script>

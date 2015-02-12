@@ -7,14 +7,41 @@ markdown: redcarpet
 highlighter: pygments
 
 paginate: 5
-permalink: /:title
+permalink: /:categories/:title
+
+title : Dvid's World
+tagline: Squirrel Coder
+author :
+  name : Dvid Silva
+  email : contacto@dvidsilva.com
+  github : dvidsilva
+  twitter : dvidsilva
+  
 
 # Social share and comments.
-disqus-id: yourusername
-twitter: yourusername
-github: yourusername
-google: +yourusername
+disqus-id: dvidsilva
+twitter: dvidsilva
+github: dvidsilva
+google: +DvidSilvaOssa
+
+archive_path: /archive.html
+categories_path : /categories.html
+tags_path : /tags.html
+atom_path : /atom.xml
+rss_path : /rss.xml
+
 
 # RSS feed
 rss-feed-limit: 10
 rss-show-full: "no"
+
+analytics :
+  provider : google
+  google :
+      tracking_id : 'UA-12157650-1'
+  getclicky :
+    site_id :
+  mixpanel :
+      token : '_MIXPANEL_TOKEN_'
+
+
