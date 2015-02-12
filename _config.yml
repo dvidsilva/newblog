@@ -1,6 +1,6 @@
 # General
-name: Minimal-Block
-description: "Minimalistic, friendly, responsive."
+name: Dvid's World
+description: "I write code for <a href='http://doctorondemand.com' target='_blank' >Doctor on Demand</a>."
 url: ''
 
 markdown: redcarpet
@@ -9,14 +9,12 @@ highlighter: pygments
 paginate: 6
 permalink: /:categories/:title
 
-title : Dvid's World
-tagline: Squirrel Coder
+tagline:
 author :
   name : Dvid Silva
   email : contacto@dvidsilva.com
   github : dvidsilva
   twitter : dvidsilva
-  
 
 # Social share and comments.
 disqus-id: dvidsilva
