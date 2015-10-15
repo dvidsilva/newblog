@@ -14,7 +14,7 @@ website, but we have a checklist of things that we go through before publishing 
 
 It looks like this:
 
-1. See what new blog posts where created or what was edited recently, most CMS have the option to sort posts by last edited
+1. See what new blog posts were created or what was edited recently, most CMS have the option to sort posts by last edited
 or created to make this easier.
 
 2. Look at the content and make sure the images look fine, and content is as it should be, including:
