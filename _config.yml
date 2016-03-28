@@ -3,7 +3,7 @@ name: Dvid's World
 description: "I write code for <a href='http://doctorondemand.com' target='_blank' >Doctor on Demand</a>."
 url: ''
 
-highlighter: pygments
+highlighter: rouge
 
 paginate: 6
 permalink: /:categories/:title
